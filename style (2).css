@@ -1,0 +1,319 @@
+body {
+    font-size: 15pt;
+    background-color: #06402b;
+}
+h1{
+margin: 0;
+padding: 0;
+font-size: 5px;
+}
+.icones{
+background-color:#06402b;
+
+}
+.navbar{
+  background-color: white;
+  padding: 5px
+  background: #06402b;
+  
+  
+  
+  
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove os marcadores */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Coloca os itens lado a lado */
+  gap: 15px; /* Espaçamento entre os itens */
+  background-color: #333;
+}
+
+.navbar li {
+  display: inline; /* Garante que os itens fiquem em linha */
+}
+
+.navbar a {
+  text-decoration: none; /* Remove sublinhado */
+  color: blue;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  
+  text-decoration: underline;
+  text-decoration-color: #333;
+  text-decoration-style: #333;
+  
+  
+}
+h2{
+display: flex;
+      justify-content: flex-end;
+    }
+
+}
+.icones{
+      display: flex;
+      margin-left: auto;
+    
+}
+.hero-banner {
+    /* Define a imagem de fundo */
+    background-image: url('/Screenshot_20251011-211403.png'); 
+    
+    /* Garante que a imagem cubra toda a área, sem distorcer (corta se necessário) */
+    background-size: cover; 
+    
+    /* Centraliza a imagem no contêiner */
+    background-position: center; 
+    
+    /* Impede que a imagem se repita, caso a div seja maior que a imagem */
+    background-repeat: no-repeat; 
+    
+    /* Define uma altura mínima para o banner ser visível */
+    min-height: 400px; /* Ajuste este valor conforme o desejado */
+    
+    /* Opcional: Para ter um fundo mais escuro, pode-se usar um 'overlay' */
+    background-color: #385b3b; 
+    
+    /* Opcional: Ajusta a forma como a imagem e a cor de fundo interagem */
+    background-blend-mode: multiply; 
+}
+.btn-comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #6a994e; /* Cor verde para o botão */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* O input deve estar inicialmente escondido */
+#inputNome {
+    /* Esconde o elemento mas mantém ele no fluxo do documento (bom para animações) */
+    opacity: 0;
+    pointer-events: none; /* Garante que não é clicável/selecionável quando invisível */
+    width: 0; /* Começa com largura zero */
+    transition: opacity 0.3s, width 0.3s; /* Adiciona uma transição suave */
+}
+
+/* Esta classe será adicionada pelo JavaScript quando a lupa for clicada */
+.mostrar-busca {
+    opacity: 1 !important; /* Força a visibilidade */
+    pointer-events: auto !important; /* Torna ele clicável novamente */
+    width: 200px !important; /* Define a largura que ele deve ter ao aparecer */
+}
+/* Estilos do modo claro (padrão) */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Estilos do modo escuro */
+body.dark {
+  background-color: #333;
+  color: white;
+}
+#theme-toggle{
+background-color: olivedrab;
+border-radius: 5px;
+border: none;
+}
+h4{
+color: #808080;
+}
+.categorias{
+width: 300px;
+border-radius: 10px;
+box-shadow: 0 4px 8px #000;
+display: flex;
+  /* Outras propriedades para espaçamento, alinhamento, etc. */
+  justify-content: space-between; /* Exemplo de alinhamento horizontal */
+  align-items: center;
+  min-height: 400px;
+}
+img{
+width: 300px;
+}
+
+
+
+#primeiro{
+border-radius: 10px;
+background-color: olive;
+
+}
+
+
+#primeiro:hover{
+border: none;
+background-color: olivedrab;
+}
+#segundo{
+text-align: right;
+padding: 8px 15px;
+    background-color: olive; /* Use uma cor que combine com seu site */
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none; /* Se for um <a> */
+
+}
+.categorias #segundo{
+width: 100%; 
+    padding: 10px;
+    margin-top: auto;
+}
+#h1{
+margin: 0;
+padding: 0;
+font-size: 10px;
+}
+.card{
+min-width: 300px; /* Largura mínima de cada card */
+  margin-right: 10px; /* Espaço entre os cards */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#img1{
+width: 80%;
+  height: auto;
+}
+#btn6{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: blue;
+  border: none;
+  width: 100%; 
+    padding: 10px;
+    margin-top: auto;
+}
+/* Estilo geral do rodapé */
+.footer-verde-vivo {
+    background-color: #2F4F4F; /* Um verde escuro, semelhante ao da imagem */
+    color: #FFFFFF;
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+    width: 100%;
+}
+
+/* Container para centralizar o conteúdo (ajuste a largura máxima conforme necessário) */
+.footer-container {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 0 20px; /* Padding lateral para telas menores */
+    text-align: center; /* Centraliza o texto por padrão */
+}
+
+/* Estilo para os links de navegação (FAQ, Termos, Fale Conosco) */
+.footer-nav-links {
+    display: flex; /* Para alinhar os links lado a lado */
+    justify-content: center; /* Centraliza os links na horizontal */
+    gap: 20px; /* Espaço entre os links */
+    margin-bottom: 20px;
+}
+
+.footer-nav-links a {
+    color: #FFFFFF;
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 0.9em;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+.footer-nav-links a:hover {
+    color: #A9A9A9; /* Cor ao passar o mouse */
+}
+
+/* Linha divisória (opcional) */
+.footer-divisor {
+    border: 0;
+    height: 1px;
+    background-color: #4CAF50; /* Cor um pouco mais clara para a linha */
+    margin: 20px auto;
+    width: 90%;
+}
+
+/* Estilo para a parte inferior (Logo, Copyright, Ícones) */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between; /* Espaça os elementos (Logo na esquerda, Copyright no centro, Ícones na direita) */
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas menores */
+    padding-top: 10px;
+}
+
+.footer-logo {
+    font-weight: bold;
+    font-size: 1.1em;
+    flex-grow: 1; /* Permite que cresça, empurrando o copyright */
+    text-align: left; /* Alinha o logo à esquerda */
+}
+
+.footer-copyright {
+    font-size: 0.8em;
+    text-align: center;
+    flex-grow: 2; /* Dá mais espaço para o copyright */
+}
+
+.footer-social-icons a {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    margin-left: 15px; /* Espaço entre os ícones */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-social-icons a:hover {
+    color: #4CAF50; /* Cor de hover para os ícones */
+}
+
+/* Media Query para Responsividade em telas menores */
+@media (max-width: 600px) {
+    .footer-bottom {
+        /* Altera o layout para empilhar itens em telas pequenas */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo, .footer-copyright, .footer-social-icons {
+        flex-grow: 0;
+        width: 100%;
+        text-align: center; /* Centraliza tudo */
+        margin-bottom: 10px; /* Adiciona espaço entre os itens empilhados */
+    }
+
+    .footer-social-icons {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+  /* Estilos aplicados a telas com no máximo 600px de largura */
+  .hero-banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px; /*ocupe todo o espaço da tela mínima*/ 
+
+
+  }
+}
+.card {
+    width: 50%;
+    margin: 1%;
+    min-height: 400px;
+    min-width: 300px;
+  }
+  
+
+
+    
+    
+  
+
+
